@@ -20,9 +20,10 @@ pipe = pipeline("text-classification", model=MODEL_PATH)
 4. Go to your browser (Chrome is highly recommended)
 5. Type chrome://extensions/ in the url bar.
 6. Turn ON the "Developer Mode".
-7. Click on "Load Unpacked" and extension will be downloaded.
+7. Click on "Load Unpacked" and select the "sentiment-analysis" folder to download the extension.
 8. Go to the sentiment-analyser directory and open terminal.
 9. Start the FastAI app using: 
 ```bash
 uvicorn main:app --reload
 ```
+10. Go to any website and select the text to classify.
