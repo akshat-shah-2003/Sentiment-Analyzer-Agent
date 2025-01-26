@@ -24,6 +24,6 @@ pipe = pipeline("text-classification", model=MODEL_PATH)
 8. Go to the sentiment-analyser directory and open terminal.
 9. Start the FastAI app using: 
 ```bash
-uvicorn main:app --reload
+uvicorn app:app --reload
 ```
 10. Go to any website and select the text to classify.
