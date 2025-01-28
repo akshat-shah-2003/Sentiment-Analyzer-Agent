@@ -20,7 +20,7 @@ pipe = pipeline("text-classification", model=MODEL_PATH)
 4. Go to your browser (Chrome is highly recommended)
 5. Type chrome://extensions/ in the url bar.
 6. Turn ON the "Developer Mode".
-7. Click on "Load Unpacked" and select the "sentiment-analysis" folder to download the extension.
+7. Click on "Load Unpacked" and select the "sentiment-analysis" folder to load the extension.
 8. Go to the sentiment-analyser directory and open terminal.
 9. Start the FastAI app using: 
 ```bash
